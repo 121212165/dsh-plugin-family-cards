@@ -1,0 +1,4 @@
+- insert:
+    - id: family-cards
+      name: dsh-plugin-family-cards
+      config: {}
