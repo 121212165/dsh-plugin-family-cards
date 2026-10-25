@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "DeepSeek Harness client plugin: rich toolview cards for the 121212165 family plugins (quota/pinboard/cost-ledger/cache-guard/relay-quota/transcript-search/fact-vault/deep-scan/eco-scan/task-forge).",
   "type": "module",
-  "private": true,
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
