@@ -28,6 +28,11 @@
     "client": {
       "platform": "web",
       "immediately": true
+    },
+    "catalog": {
+      "category": "编排与界面",
+      "blurb": "家族 11 个工具的 web UI 卡片渲染器（补官方 Client 不消费 presentCall 的缺口）",
+      "entries": "自动渲染"
     }
   },
   "repository": {
@@ -36,5 +41,11 @@
   },
   "keywords": [
     "dsh-plugin"
-  ]
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check client.js"
+  }
 }
