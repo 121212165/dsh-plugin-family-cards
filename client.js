@@ -4,7 +4,7 @@ window.__ModuleLoader__.load({
     const React = require('react');
     const h = React.createElement;
 
-    const FAMILY_LABELS = {"quota_meter": "quota meter", "pin_add": "pin add", "fact_search": "fact search", "fact_find": "fact find", "ledger_query": "ledger query", "cache_status": "cache status", "quota_check": "quota check", "session_search": "session search", "deep_scan": "deep scan", "eco_scan": "eco scan", "forge_write": "forge write"};
+    const FAMILY_LABELS = {"quota_meter": "quota meter", "pin_add": "pin add", "fact_search": "fact search", "fact_find": "fact find", "ledger_query": "ledger query", "cache_status": "cache status", "quota_check": "quota check", "transcript_search": "transcript search", "deep_scan": "deep scan", "eco_scan": "eco scan", "forge_write": "forge write"};
 
     function argsPreview(argsRaw) {
       if (typeof argsRaw !== 'string' || argsRaw.trim() === '') return null;

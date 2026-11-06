@@ -46,6 +46,6 @@
     "node": ">=22.18"
   },
   "scripts": {
-    "check": "node --check index.js && node --check client.js"
+    "check": "node --check index.js && node --check client.js && node --test client.test.mjs"
   }
 }
